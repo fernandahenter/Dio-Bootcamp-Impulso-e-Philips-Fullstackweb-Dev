@@ -1,2 +1,2 @@
-# Repositório projeto dio-desafio-github
-## Repositório criado para desafio de projeto.
+# Repositório Dio - Projeto Bootcamp Impulso Fullstack Web Developer
+## Respositórios criados para os desafios do bootcamp.
