@@ -1,0 +1,5 @@
+Criação de navbar
+link para seções
+div class "col-lg-6"
+dividir seçoes em colunas
+rodapé
