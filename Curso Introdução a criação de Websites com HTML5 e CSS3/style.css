@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald&display=swap');
+
+body {
+    background: #080727;
+    font-family: 'Kaushan Script', 'Oswald' ;
+}
+
+.home {
+    height: 30px;
+    width: 40px;
+    left: 587px;
+    top: 23px;
+    border-radius: nullpx;
+    
+
+position: absolute;
+width: 40px;
+height: 30px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+text-transform: lowercase;
+font-feature-settings: 'ordn' on, 'liga' off, 'kern' off;
+
+color: #FBFBFF;
+}
+
+.portfolio {
+    height: 30px;
+    width: 62px;
+    left: 661px;
+    top: 23px;
+    border-radius: nullpx;
+    
+
+    position: absolute;
+    width: 62px;
+    height: 30px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-transform: lowercase;
+    font-feature-settings: 'ordn' on, 'liga' off, 'kern' off;
+    
+    color: #FBFBFF;
+}
+
+.profissional {
+height: 30px;
+width: 85px;
+left: 756px;
+top: 23px;
+border-radius: nullpx;
+    
+
+position: absolute;
+width: 85px;
+height: 30px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+text-transform: lowercase;
+font-feature-settings: 'ordn' on, 'liga' off, 'kern' off;
+
+color: #FBFBFF;
+
+}
+
+.experiencia {
+height: 30px;
+width: 84px;
+left: 874px;
+top: 23px;
+border-radius: nullpx;
+
+position: absolute;
+width: 84px;
+height: 30px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+text-transform: lowercase;
+font-feature-settings: 'ordn' on, 'liga' off, 'kern' off;
+color: #FBFBFF;
+}
+
+.contato {
+height: 30px;
+width: 55px;
+left: 992px;
+top: 23px;
+border-radius: nullpx;
+    
+
+position: absolute;
+width: 55px;
+height: 30px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+text-transform: lowercase;
+font-feature-settings: 'ordn' on, 'liga' off, 'kern' off;
+
+color: #FBFBFF;
+}
+
+.fotoperfil {
+left: 108px;
+top: 30px;
+border-radius: 0px;
+
+position: absolute;
+width: 450px;
+height: 450px;
+
+
+opacity: 0.6;
+filter: drop-shadow(10px 4px 10px rgba(0, 0, 0, 0.25));
+
+}
+
+.titulo h1 {
+height: 38px;
+width: 609px;
+left: 650px;
+top: 248px;
+border-radius: nullpx;
+
+position: absolute;
+width: 609px;
+height: 38px;
+
+font-family: 'Kaushan Script';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 30px;
+/* or 62% */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+text-transform: capitalize;
+
+color: #FBFBFF;
+
+}
+
+.titulo h3 {
+height: 30px;
+width: 246px;
+left: 701px;
+top: 316px;
+border-radius: nullpx;
+
+position: absolute;
+width: 246px;
+height: 30px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+text-transform: lowercase;
+font-feature-settings: 'ordn' on, 'liga' off, 'kern' off;
+
+color: #FBFBFF;
+}
+
+
+
+.perfil {
+    align-items: center;
+padding: 1%;
+    height: 418px;
+    width: 782px;
+    left: 216px;
+    top: 520px;
+    border-radius: 0px;
+    
+position: relative;
+width: 782px;
+height: 418px;
+
+background: #1F1E2F;
+box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.perfil p {
+margin: auto;
+height: 337px;
+width: 765px;
+left: 229px;
+top: 532px;
+border-radius: nullpx;
+
+position:static;
+width: 765px;
+height: 337px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+
+display: flex;
+align-items: flex-end;
+
+color: #FBFBFF;
+}
+
+.fundolt {
+    margin: 3%;
+    height: 862px;
+    width: 1011px;
+    left: 103px;
+    top: 954px;
+    border-radius: 0px;
+
+position: absolute;
+align-items: center;
+
+opacity: 0.5;
+}
+
+.selportfolio {
+display: center;
+margin: 2%;
+height: 650px;
+width: 1015px;
+left: 104px;
+top: 1834px;
+border-radius: 0px;
+position: absolute;
+align-items: center;
+
+}
