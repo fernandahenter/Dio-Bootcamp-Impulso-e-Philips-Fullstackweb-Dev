@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align content</title>
+    <style>
+        .container{
+            height: 350px;
+            max-width: 300px;
+            border: 2px solid black;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .item{
+            background-color: black;
+            padding:0 5px;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+
+        .center{
+            align-content: center;
+        }
+
+        .stretch{
+            align-content: stretch;
+        }
+
+        .flex-start{
+            align-content: flex-start;
+        }
+       
+        .flex-end{
+            align-content: flex-end;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+
+        .space-between{
+            align-content: space-between;
+        }
+
+        .baseline{
+            align-content: baseline;
+        }
+
+        .column{
+            flex-direction: column;
+        }
+
+        .central{
+            height: 300px;
+            justify-content: center;
+           
+        }
+
+        .central .item{
+            flex:0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stretch (Padrão)</h1>
+        <div class="container stretch">
+        <div class="item">Similique numquam vitae ad quibusdam ipsam nam harum repellendus!</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </div>
+        <div class="item">Ea nam maiores nisi aliquid totam accusamus autem, sequi libero veniam consectetur odit. </div>
+        <div class="item">Similique numquam vitae </div>
+        <div class="item">Similique !</div>
+         <div class="item">Lorem, ipsum dolor</div>
+         <div class="item">Lorem</div>
+    </div>
+    <h1>center</h1>
+        <div class="container center">
+        <div class="item">Similique numquam vitae ad quibusdam ipsam nam harum repellendus!</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </div>
+        <div class="item">Ea nam maiores nisi aliquid totam accusamus autem, sequi libero veniam consectetur odit. </div>
+        <div class="item">Similique numquam vitae </div>
+        <div class="item">Similique numquam vitae ad quibusdam ipsam nam harum repellendus!</div>
+         <div class="item">Lorem, ipsum dolor</div>
+         <div class="item">Lorem, ipsum dolor</div>
+    </div>
+    <h1>flex-start</h1>
+    <div class="container flex-start">
+        <div class="item">Similique numquam vitae ad quibusdam ipsam nam harum repellendus!</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </div>
+        <div class="item">Ea nam maiores . </div>
+        <div class="item">Similique numquam vitae </div>
+        <div class="item">Similique numquam v!</div>
+        <div class="item">Lorem, ipsum dolor</div>
+        <div class="item">Lorem, ipsum dolor</div>
+    </div>
+    <h1>flex-end</h1>
+    <div class="container flex-end">
+        <div class="item">Similique numquam vitae ad quibusdam ipsam nam harum repellendus!</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </div>
+        <div class="item">Ea nam maiores . </div>
+        <div class="item">Similique numquam vitae </div>
+        <div class="item">Similique numquam v!</div>
+        <div class="item">Lorem, ipsum dolor</div>
+        <div class="item">Lorem, ipsum dolor</div>
+    </div>
+    <h1>space-around</h1>
+    <div class="container space-around">
+        <div class="item">Similique numquam vitae ad quibusdam ipsam nam harum repellendus!</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </div>
+        <div class="item">Ea nam maiores . </div>
+        <div class="item">Similique numquam vitae </div>
+        <div class="item">Similique numquam v!</div>
+        <div class="item">Lorem, ipsum dolor</div>
+        <div class="item">Lorem, ipsum dolor</div>
+    </div>
+    <h1>space-between</h1>
+    <div class="container space-between">
+        <div class="item">Similique numquam vitae ad quibusdam ipsam nam harum repellendus!</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </div>
+        <div class="item">Ea nam maiores . </div>
+        <div class="item">Similique numquam vitae </div>
+        <div class="item">Similique numquam v!</div>
+        <div class="item">Lorem, ipsum dolor</div>
+        <div class="item">Lorem, ipsum dolor</div>
+    </div>
+    
+</body>
+</html>

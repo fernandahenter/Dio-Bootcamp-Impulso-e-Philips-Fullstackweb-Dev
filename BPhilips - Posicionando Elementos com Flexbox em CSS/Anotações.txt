@@ -1,0 +1,97 @@
+Flex Box CSS
+-Flexbox é um recurso CSS3 que serve de modelo para desenvolvimento de layouts para websites e aplicações web visando organizar elementos dentro de contêiners de forma flexível conforme sua necessidade.
+
+O que indica que um layout está utilizando CSS Flexbox é definição da propriedade display de um contêiner, o Flex Container, com o valor flex, ou inline-flex. Veja o código a seguir.
+
+Código CSS:
+
+.container {
+     display: flex;
+}
+
+
+Propriedades:
+
+-Display - A propriedade CSS display espeficica como elementos HTML devem ser apresentados em relação ao tipo de caixa de renderização.
+
+Com o valor “flex” ou “inline-flex” atribuído a esta propriedade, o contêiner e se torna flexível. Consequentemente seus filhos se tornam Flex Itens.
+
+-Flex-direction - Flex-direction é aplicada no contêiner, mas define o fluxo de exibição que os Flex Itens serão dispostos. É esta propriedade que pode mudar o Eixo principal da posição horizontal (Flex Itens aninhados lado a lado em linha) para na vertical (Flex Itens aninhados um abaixo do outro em coluna). Conheça os possíveis valores para esta propriedade:
+
+row: Este é o valor padrão, onde os itens são organizados para exibição em forma de linha da esquerda para a direita;
+
+row-reverse: Os itens também são organizados em linha, só que em ordem reversa em relação ao valor anterior. Da direita para a esquerda;
+
+column: Os itens são organizados em forma de colunas iniciando de cima para baixo;
+
+column-reverse: Os itens são organizados em forma de colunas, só que iniciando de baixo para cima.
+
+
+-Flex-wrap - A propriedade flex-wrap determina se um Flex Container é de linha única ou multilinhas. O que ocorre é que por padrão os Flex Itens tentarão se ajustar dentro de uma linha mesmo que ultrapassem visualmente a largura do elemento pai. O flex-wrap oferece a opção de quebra de linha para que os elementos filhos se ajustem adequadamente.
+
+Conheça os possíveis valores para esta propriedade Flexbox:
+
+nowrap: Este é o valor padrão. Com ele todos os itens inseridos dentro do Flex Container serão dispostos em uma linha mesmo que ultrapasse a largura do contêiner;
+
+wrap: Ocorrerá a quebra de linha se alguns dos itens ultrapassar a largura do Flex Container. Os itens mais à direita serão deslocados para a linha de baixo;
+
+wrap-reverse: Também ocorrerá a quebra de linha se alguns dos itens ultrapassar a largura do Flex Container, só que neste caso os itens mais à direita serão deslocados para a linha de cima.
+
+
+-flex-flow - A propriedade flex-flow é um propriedade de declaração única para escrita das propriedades flex-direction e flex-wrap.
+
+Ao usar as propriedades flex-direction e flex-wrap usualmente a declaração fica da seguinte forma:
+
+.container {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+Agora a forma abreviada com flex-flow:
+
+.container {
+     display: flex;
+     flex-flow: row wrap;
+}
+
+- Justify-content - Alinhamento dos ítens do container e da distribuição de espaço entre eles.Justify-content é uma propriedade que define o alinhamento dos Flex Itens ao longo do eixo principal do contêiner.
+
+flex-start: Esse é o valor padrão. Os Flex Itens são alinhados a partir do início do contêiner;
+
+flex-end: Os Flex Itens são alinhados a partir do fim do contêiner;
+
+center: Os itens são alinhados ao centro do contêiner;
+
+space-between: Cria um alinhamento uniforme entre os Flex Itens com um espaçamentos entre esses elementos. O primeiro item é deslocado para o início, e o último é deslocado para o final do contêiner;
+
+space-around: Os Flex Itens também são distribuídos ao longo contêiner, onde é criado um espaçamento ao redor dos elementos. Com isso, o primeiro e o último item possuirão margens e não ficaram grudados as extremidades do contêiner. Visualmente os espaçamentos antes do primeiro e depois do último item são menores que os outros espaçamentos. O que acontece é que os espaçamentos são aplicados no lado esquerdo e direito de cada Flex Item, portanto os espaçamentos que não estão nas extremidades tem tamanho dobrado porque soma o espaçamento a direita do item antecessor e o espaçamento a esquerda do item sucessor.
+
+space-evenly: Os Flex Itens também são distribuídos ao longo contêiner, onde também é criado um espaçamento ao redor dos elementos. O que difere do space-around é que os espaçamentos entre os itens e os espaçamentos nas extremidades do contêiner são distribuídos de forma igualitária.
+
+
+
+
+
+-----------------------------------------------------
+Display block - cada item embaixo do outro
+diplay flex - lado a lado
+padding (1 valor) Margem interna da caixa - 2 valores (em cima e embaixo) (dos dois lados) - 4 valores ()cima - ()lado direito - ()baixo - ()lado esquerdo
+border (tamanho borda)px Solid(tipo de borda) cor
+max-width () tamanho máximo da largura
+max-height () tamamnho máximo da altura
+background-color - cor do fundo
+margin() - margin externa do ítem
+fle-direction:row ordem numerica
+flex-direction:row-reverse - ordem reversa na mesma linha
+flex-direction: column em colunas
+flex-direction: column em colunas reversas
+flex-wrap: nowrap em ordem dentro de uma caixa - passando para fora se acabar a caixa
+flex-wrap: wrap preenche em ordem a caixa, passando para baixo, com quebra de linha
+flex-wrap: preenche a caixa em ordem inversa com quebra de linha
+line-height(): altura da linha escrita 
+margin-boton: espaço entre os elementos
+
+flex-flow é um atalho para o flex-direction e o wrap (3-flex-flow.html)
+
+4 - Justify-content()
+
